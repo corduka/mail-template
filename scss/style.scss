@@ -4,7 +4,8 @@
 .container {
     border: 1px solid $secondary-color;
     background-color: $secondary-color;
-    width: 400px;
+    /**/
+    max-width: 400px;
     height: 400px;
     position: relative;
     display: flex;            
@@ -14,13 +15,13 @@
         .banner-container {
             border: 1px solid $banner-bg;
             border-radius: $border-radius;
-            width: 350px;
+                /**/
+            max-width: 350px;
             height: 350px;
             position: relative;
             background-color: $banner-bg;
             overflow: hidden;  
-            .banner {
-                width: 100%;              
+            .banner {        
                 height: auto;             
                 max-width: 100%;          
                 display: block; 

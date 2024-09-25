@@ -13,6 +13,8 @@ main {
   justify-content: center;
   align-items: center;
   display: flex;
+  /**/
+  flex-direction: column;
 }
 
 h2 {
@@ -27,7 +29,6 @@ p {
 
 .ignore-text {
   font-size: 8px;
-  padding-top: 20px;
 }
 
 button {
@@ -37,7 +38,8 @@ button {
 .container {
   border: 1px solid rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
-  width: 400px;
+  /**/
+  max-width: 400px;
   height: 400px;
   position: relative;
   display: flex;
@@ -47,14 +49,14 @@ button {
 .container .banner-container {
   border: 1px solid rgb(219, 219, 223);
   border-radius: 3px;
-  width: 350px;
+  /**/
+  max-width: 350px;
   height: 350px;
   position: relative;
   background-color: rgb(219, 219, 223);
   overflow: hidden;
 }
 .container .banner-container .banner {
-  width: 100%;
   height: auto;
   max-width: 100%;
   display: block;
